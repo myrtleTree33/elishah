@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elishah Pte. Ltd. - Tech Consulting</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Raleway', Arial, sans-serif;
+            background-color: #F2E74B;
+            color: #011F26;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            line-height: 1.5; /* Adjust line height as needed */
+        }
+
+        #tagline {
+            font-family: 'Montserrat', Arial, sans-serif;
+            font-size: 48px;
+            font-weight: 900;
+            margin: 40px 0; /* Doubled vertical margin */
+            text-align: center;
+        }
+
+        p {
+            margin: 20px 0; /* Doubled vertical margin */
+        }
+
+        #cta-container {
+            text-align: center;
+            margin: 40px 0; /* Doubled vertical margin */
+            padding: 20px;
+            background-color: #011F26;
+            color: #F2E74B;
+            border-radius: 10px;
+        }
+
+        #cta-text {
+            font-size: 20px;
+            margin: 20px 0; /* Doubled vertical margin */
+        }
+
+        #message-button {
+            background-color: #F2E74B;
+            color: #011F26;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #message-button:hover {
+            background-color: #011F26;
+            color: #F2E74B;
+        }
+
+        /* Your CSS styles here */
+
+    </style>
+</head>
+<body>
+    <h1 id="tagline">Make Big, Beautiful.</h1>
+    <p id="core-values">Delivering Innovation, Excellence, and Transformation</p>
+    <div id="cta-container">
+        <p id="cta-text">Ready to start your project?</p>
+        <button id="message-button" onclick="sendMessage()">Send a Message to Joel</button>
+    </div>
+    <p id="footer">Singapore registered company. ACRA 202333842M. 21 Woodlands Close, #08-44, Primz Bizhub, Singapore 737854.</p>
+
+    <script>
+        function sendMessage() {
+            // Redirect to Joel's LinkedIn profile for sending a message
+            window.open("https://www.linkedin.com/in/jhtong/", "_blank");
+        }
+    </script>
+</body>
+</html>
